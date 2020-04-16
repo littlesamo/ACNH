@@ -158,9 +158,9 @@ flower2: rose, white, rrYYWWbb
 * Offsprings:
 ```
 rose, orange, RrYYWwbb  rate: 0.125  - guaranteed route
-rose, red, RrYYWWbb  rate: 0.125  - all reds can breed togther
-rose, red, RrYyWWbb  rate: 0.125
-rose, red, RrYyWwbb  rate: 0.125
+rose, red1, RrYYWWbb  rate: 0.125  - all reds can breed togther
+rose, red2, RrYyWWbb  rate: 0.125
+rose, red3, RrYyWwbb  rate: 0.125
 rose, white, rrYYWWbb  rate: 0.125
 rose, yellow, rrYYWwbb  rate: 0.125
 rose, purple, rrYyWWbb  rate: 0.125
@@ -168,8 +168,150 @@ rose, white, rrYyWwbb  rate: 0.125
 ```
 * If you stop here, these oranges can be bred together for a 6.25% chance at blue offspring.
 THe reds also have high chance of getting blue 
-* Breeding the reds also have high chance of getting blue 
+<details><summary>click to see genetics if breeding current oranges (RrYYWwbb) together</summary>
+<p>
+ 
+```
+rose, blue, RRYYWWbb  rate: 0.0625
+rose, orange, RRYYWwbb  rate: 0.125
+rose, orange, RRYYwwbb  rate: 0.0625
+rose, red, RrYYWWbb  rate: 0.125
+rose, orange, RrYYWwbb  rate: 0.25
+rose, orange, RrYYwwbb  rate: 0.125
+rose, white, rrYYWWbb  rate: 0.0625
+rose, yellow, rrYYWwbb  rate: 0.125
+rose, yellow, rrYYwwbb (seed) rate: 0.0625
+```
+</p></details>
+ 
+**Breeding the reds also have high chance of getting blue**
 
+* red1 x red1 (RrYYWWbb) - 25% 
+<div margin-right=150px>
+<details><summary>Genetics</summary>
+<p>
+ 
+```
+rose, blue, RRYYWWbb  rate: 0.25
+rose, red, RrYYWWbb  rate: 0.5
+rose, white, rrYYWWbb  rate: 0.25
+```
+</p></details> </div>
+
+* red1 (RrYYWWbb) x red2 (RrYyWWbb) - 12.5%
+
+<details><summary>Genetics</summary>
+<p>
+ 
+
+```
+rose, blue, RRYYWWbb  rate: 0.125
+rose, black, RRYyWWbb  rate: 0.125
+rose, red, RrYYWWbb  rate: 0.25
+rose, red, RrYyWWbb  rate: 0.25
+rose, white, rrYYWWbb  rate: 0.125
+rose, purple, rrYyWWbb  rate: 0.125
+```
+</p></details> 
+
+* red1 (RrYYWWbb) x red3 (RrYyWwbb) - 6.25% 
+<details><summary>Genetics</summary>
+<p>
+ 
+```
+rose, blue, RRYYWWbb  rate: 0.0625
+rose, orange, RRYYWwbb  rate: 0.0625
+rose, black, RRYyWWbb  rate: 0.0625
+rose, red, RRYyWwbb  rate: 0.0625
+rose, red, RrYYWWbb  rate: 0.125
+rose, orange, RrYYWwbb  rate: 0.125
+rose, red, RrYyWWbb  rate: 0.125
+rose, red, RrYyWwbb  rate: 0.125
+rose, white, rrYYWWbb  rate: 0.0625
+rose, yellow, rrYYWwbb  rate: 0.0625
+rose, purple, rrYyWWbb  rate: 0.0625
+rose, white, rrYyWwbb  rate: 0.0625
+```
+</p></details> 
+
+* red2 (RrYyWWbb) x red2 (RrYyWWbb) - 6.25%
+<details><summary>Genetics</summary>
+<p>
+ 
+```
+rose, blue, RRYYWWbb  rate: 0.0625
+rose, black, RRYyWWbb  rate: 0.125
+rose, black, RRyyWWbb  rate: 0.0625
+rose, red, RrYYWWbb  rate: 0.125
+rose, red, RrYyWWbb  rate: 0.25
+rose, red, RryyWWbb  rate: 0.125
+rose, white, rrYYWWbb  rate: 0.0625
+rose, purple, rrYyWWbb  rate: 0.125
+rose, purple, rryyWWbb  rate: 0.0625
+```
+</p></details> 
+
+* red2 (RrYyWWbb) x red3 (RrYyWwbb) - 3.125%
+<details><summary>Genetics</summary>
+<p>
+ 
+```
+rose, blue, RRYYWWbb  rate: 0.03125
+rose, orange, RRYYWwbb  rate: 0.03125
+rose, black, RRYyWWbb  rate: 0.0625
+rose, red, RRYyWwbb  rate: 0.0625
+rose, black, RRyyWWbb  rate: 0.03125
+rose, black, RRyyWwbb  rate: 0.03125
+rose, red, RrYYWWbb  rate: 0.0625
+rose, orange, RrYYWwbb  rate: 0.0625
+rose, red, RrYyWWbb  rate: 0.125
+rose, red, RrYyWwbb  rate: 0.125
+rose, red, RryyWWbb  rate: 0.0625
+rose, red, RryyWwbb  rate: 0.0625
+rose, white, rrYYWWbb  rate: 0.03125
+rose, yellow, rrYYWwbb  rate: 0.03125
+rose, purple, rrYyWWbb  rate: 0.0625
+rose, white, rrYyWwbb  rate: 0.0625
+rose, purple, rryyWWbb  rate: 0.03125
+rose, white, rryyWwbb (seed) rate: 0.03125
+```
+</p></details> 
+
+* red3 (RrYyWwbb) x red3 (RrYyWwbb) - 1.56%
+<details><summary>Genetics</summary>
+<p>
+ 
+```
+rose, blue, RRYYWWbb  rate: 0.015625
+rose, orange, RRYYWwbb  rate: 0.03125
+rose, orange, RRYYwwbb  rate: 0.015625
+rose, black, RRYyWWbb  rate: 0.03125
+rose, red, RRYyWwbb  rate: 0.0625
+rose, orange, RRYywwbb  rate: 0.03125
+rose, black, RRyyWWbb  rate: 0.015625
+rose, black, RRyyWwbb  rate: 0.03125
+rose, black, RRyywwbb  rate: 0.015625
+rose, red, RrYYWWbb  rate: 0.03125
+rose, orange, RrYYWwbb  rate: 0.0625
+rose, orange, RrYYwwbb  rate: 0.03125
+rose, red, RrYyWWbb  rate: 0.0625
+rose, red, RrYyWwbb  rate: 0.125
+rose, orange, RrYywwbb  rate: 0.0625
+rose, red, RryyWWbb  rate: 0.03125
+rose, red, RryyWwbb  rate: 0.0625
+rose, red, Rryywwbb  rate: 0.03125
+rose, white, rrYYWWbb  rate: 0.015625
+rose, yellow, rrYYWwbb  rate: 0.03125
+rose, yellow, rrYYwwbb (seed) rate: 0.015625
+rose, purple, rrYyWWbb  rate: 0.03125
+rose, white, rrYyWwbb  rate: 0.0625
+rose, yellow, rrYywwbb  rate: 0.03125
+rose, purple, rryyWWbb  rate: 0.015625
+rose, white, rryyWwbb (seed) rate: 0.03125
+rose, white, rryywwbb  rate: 0.015625
+```
+</p></details> 
+ 
 ### 7. Cross the oranges back to whites* for reds (25%)
 * parents:
 ```
