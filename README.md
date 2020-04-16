@@ -162,7 +162,7 @@ rose, yellow, rrYYWwbb  rate: 0.125
 rose, purple, rrYyWWbb  rate: 0.125
 rose, white, rrYyWwbb  rate: 0.125
 ```
-* If you stop here, these oranges can be bred together for a 6.25% chance at blue offspring.
+#### If you stop here, these oranges can be bred together for a 6.25% chance at blue offspring.
 THe reds also have high chance of getting blue 
 <details><summary> orange x orange (RrYYWwbb) -> 6.25% blue </summary>
 <p>
@@ -180,11 +180,10 @@ rose, yellow, rrYYwwbb (seed) rate: 0.0625
 ```
 </p></details>
  
-**Breeding the reds also have high chance of getting blue**
+#### Breeding the reds also have high chance of getting blue**
 
-* red1 x red1 (RrYYWWbb) - 25% 
 <div margin-right=150px>
-<details><summary>Genetics</summary>
+<details><summary>red1 x red1 (RrYYWWbb) - 25% </summary>
 <p>
  
 ```
@@ -194,9 +193,7 @@ rose, white, rrYYWWbb  rate: 0.25
 ```
 </p></details> </div>
 
-* red1 (RrYYWWbb) x red2 (RrYyWWbb) - 12.5%
-
-<details><summary>Genetics</summary>
+<details><summary>red1 (RrYYWWbb) x red2 (RrYyWWbb) - 12.5%</summary>
 <p>
  
 
@@ -210,8 +207,7 @@ rose, purple, rrYyWWbb  rate: 0.125
 ```
 </p></details> 
 
-* red1 (RrYYWWbb) x red3 (RrYyWwbb) - 6.25% 
-<details><summary>Genetics</summary>
+<details><summary>red1 (RrYYWWbb) x red3 (RrYyWwbb) - 6.25% </summary>
 <p>
  
 ```
@@ -230,8 +226,7 @@ rose, white, rrYyWwbb  rate: 0.0625
 ```
 </p></details> 
 
-* red2 (RrYyWWbb) x red2 (RrYyWWbb) - 6.25%
-<details><summary>Genetics</summary>
+<details><summary>red2 (RrYyWWbb) x red2 (RrYyWWbb) - 6.25%</summary>
 <p>
  
 ```
@@ -247,8 +242,7 @@ rose, purple, rryyWWbb  rate: 0.0625
 ```
 </p></details> 
 
-* red2 (RrYyWWbb) x red3 (RrYyWwbb) - 3.125%
-<details><summary>Genetics</summary>
+<details><summary>red2 (RrYyWWbb) x red3 (RrYyWwbb) - 3.125%</summary>
 <p>
  
 ```
@@ -273,8 +267,7 @@ rose, white, rryyWwbb (seed) rate: 0.03125
 ```
 </p></details> 
 
-* red3 (RrYyWwbb) x red3 (RrYyWwbb) - 1.56%
-<details><summary>Genetics</summary>
+<details><summary>red3 (RrYyWwbb) x red3 (RrYyWwbb) - 1.56%</summary>
 <p>
  
 ```
