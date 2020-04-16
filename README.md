@@ -309,10 +309,11 @@ rose, orange, RrYYWwbb
 * Offsprings:
 ```
 rose, red, RrYYWWbb  rate: 0.25
-rose, orange, RrYYWwbb  rate: 0.25
-rose, white, rrYYWWbb  rate: 0.25
-rose, yellow, rrYYWwbb  rate: 0.25
+rose, orange, RrYYWwbb  rate: 0.25  -  this orange is the same with parent orange
+rose, white, rrYYWWbb  rate: 0.25  - this white is the same with parent white
+rose, yellow, rrYYWwbb  rate: 0.25  - discard the yellow
 ```
+NOTE: you can keep breeding the offspring oranges and whites for more reds since they contain the same gene as parents. 
 
 ### 8. Breed two of those reds together for blue (25%)
 * parents:
