@@ -107,7 +107,8 @@ white rate: 0.125
 yellow rate: 0.078125
 purple rate: 0.046875
 ```
-<details><summary>red (RrYyWwbb) x red -> 1.56% blue/summary>
+
+<details><summary>red (RrYyWwbb) x red -> 1.56% blue</summary>
 <p>
  
 * Offsprings:
