@@ -163,7 +163,6 @@ rose, purple, rrYyWWbb  rate: 0.125
 rose, white, rrYyWwbb  rate: 0.125
 ```
 #### If you stop here, these oranges can be bred together for a 6.25% chance at blue offspring.
-THe reds also have high chance of getting blue 
 <details><summary> orange x orange (RrYYWwbb) -> 6.25% blue </summary>
 <p>
  
@@ -180,7 +179,7 @@ rose, yellow, rrYYwwbb (seed) rate: 0.0625
 ```
 </p></details>
  
-#### Breeding the reds also have high chance of getting blue**
+#### Breeding the reds also have high chance of getting blue
 
 <div margin-right=150px>
 <details><summary>red1 x red1 (RrYYWWbb) - 25% </summary>
