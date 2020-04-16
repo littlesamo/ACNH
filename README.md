@@ -181,7 +181,7 @@ rose, yellow, rrYYwwbb (seed) rate: 0.0625
  
 #### Breeding the reds also have high chance of getting blue
 
-<div margin-right=150px>
+<div style="margin-left:150px">
 <details><summary>red1 x red1 (RrYYWWbb) - 25% </summary>
 <p>
  
