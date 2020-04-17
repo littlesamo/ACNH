@@ -1,4 +1,4 @@
-**Note: below is based on the google doc by Paleh https://docs.google.com/document/d/1ARIQCUc5YVEd01D7jtJT9EEJF45m07NXhAm4fOpNvCs/edit. What I did is adding the genetic analysis to the oringial note. During the process I found out some of the by product flowers can be used to breed as well. I have noted the foundings in genetic analysis as well **
+**Note: below is based on the google doc by Paleh https://docs.google.com/document/d/1ARIQCUc5YVEd01D7jtJT9EEJF45m07NXhAm4fOpNvCs/edit. What I did is adding the genetic analysis to the oringial note. During the process I found out some of the by product flowers can be used to breed as well. I have noted the foundings in genetic analysis as well**
 
 ## **Guaranteed blue rose path**
 > **Note**: due to spawning mechanics in New Horizons, it’s recommended to have multiple pairs at each step to speed up breeding. This means starting with a bunch of whites to get your first purples, getting multiple offspring from each step so you have a reasonable amount of pairs per step. In New Leaf, this matters much less.
