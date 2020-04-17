@@ -64,7 +64,7 @@ windflower, blue, rryyWW  rate: 0.125
 windflower, white, rryyWw (seed) rate: 0.125
 ```
 #### Be sure to reuse the non-purple offsprings to previous step! 
-* You will get only red* or red** (even better red) from above step; Breed back the offspring reds by placing them in red* and blue* cluster
+* You will get only red* or red** (even better red) from above step; Breed back the offspring reds by placing them in red* x blue* or red* x red* cluster
 * Test the new blue to find blue* and blue that can be used in previous steps
 * Testing red* and red** - Breed with seed orange. 
     * red* x orange -> 50% orange, 50% pink
