@@ -70,4 +70,4 @@ windflower, white, rryyWw (seed) rate: 0.125
     * red* x orange -> 50% orange, 50% pink
     * red** x orange -> always pink
     * red** is the one that doesn't produce orange 
-* If you tested all the blues and know which ones are blue*. You can bree them seperately. blue* x blue* -> purple (25%)
+### If you tested all the blues and know which ones are blue*. You can bree them seperately. blue* x blue* -> purple (25%)
