@@ -47,7 +47,7 @@ windflower, white, rryyww  rate: 0.0625
     * blue* -> 50% orange 50% pink 
     * blue* is the one that produces pink
 
-## We can increase rate by red* x blue* -> purple (12.5%) 
+## We can increase rate using by-products from preivous step -> purple (12.5% - 25%) 
 ### 3-1. red* x blue* -> 12.5% purple
 * parents:
 ```
