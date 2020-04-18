@@ -3,9 +3,12 @@
 ## **Guaranteed blue rose path**
 > **Note**: due to spawning mechanics in New Horizons, it’s recommended to have multiple pairs at each step to speed up breeding. This means starting with a bunch of whites to get your first purples, getting multiple offspring from each step so you have a reasonable amount of pairs per step. In New Leaf, this matters much less.
 
-### 1.  Breed two seed whites together to get a purple (25% chance), Breed two seed reds for black (25%)
+### 1.  Target: purple-1 (25%) and black (25%)
 
-#### white x white
+#### white (seed) x white (seed) = purple-1 (25%) + white (toss away!) 
+<details><summary> genetics </summary>
+<p>
+ 
 * parents:
 ```
 rose, white, rryyWwbb (seed)
@@ -23,7 +26,13 @@ white rate: 0.75
 
 ```
 
-#### red x red
+</p></details>
+
+
+#### red (seed) x red (seed) = black (25%) + red (seed, 25%) + pink (not used)
+<details><summary> genetics </summary>
+<p>
+ 
 * parents:
 ```
 rose, red, RRyywwBb (seed)
@@ -35,6 +44,7 @@ rose, pink, RRyywwBB  rate: 0.25
 rose, red, RRyywwBb (seed) rate: 0.5
 rose, black, RRyywwbb  rate: 0.25
 ```
+</p></details>
 
 ### 2. Breed that purple with a seed yellow to get white (100%)
 * parents:
