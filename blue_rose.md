@@ -28,7 +28,6 @@ white rate: 0.75
 
 </p></details>
 
-
 #### red (seed) x red (seed) = black (25%) + red (seed, 25%) + pink (not used)
 <details><summary> genetics </summary>
 <p>
@@ -46,6 +45,7 @@ rose, black, RRyywwbb  rate: 0.25
 ```
 </p></details>
 
+
 ### 2. Target: white-1 (100%)
 #### purple-1 x yellow (seed) = white-1 (100%)
 <details><summary> genetics </summary>
@@ -62,6 +62,7 @@ rose, white, rrYyWwbb  rate: 1.0
 ```
 
 </p></details>
+
 
 ### 3. Target: purple-2 (25%)
 #### white-1 x purple-1 = purple2 (25%) + purple-1 (25%) + white (toss away!)
@@ -104,6 +105,8 @@ As you can see, there will be 2 kinds of white: white(seed) and white-1, there i
 </p></details>
 
 ### 3-2. Option2: move to step4 by breeding all purples together - lower chance getting required white-2 
+
+
 ### 4. Target: white-2 (25% if follow 3-1)
 #### purple-2 x purple-2 = white-2 (25%) + purple-1 (25%) + purple-2 (50%) 
 <details><summary> genetics </summary>
@@ -125,7 +128,12 @@ purple rate: 0.75
 ```
 </p></details>
 
-### 5. Breed the white* with the black for reds (100%)
+
+### 5. Target: red-2 (100%)
+#### white-2 x black = red-2 (100%)
+<details><summary> genetics </summary>
+<p>
+ 
 * parents:
 ```
 rose, white, rrYYWWbb
@@ -135,20 +143,16 @@ rose, black, RRyywwbb
 ```
 rose, red, RrYyWwbb  rate: 1.0
 ```
-**At this point, these are the “hybrid reds” that are capable of producing blue offspring. However, the following steps will gradually increase the odds of blue offspring from 1 in 64 up to 1 in 4.**
-``` 
-blue rate: 0.015625
-orange rate: 0.234375
-black rate: 0.09375
-red rate: 0.40625
-white rate: 0.125
-yellow rate: 0.078125
-purple rate: 0.046875
-```
+</p></details>
 
-<details><summary>red (RrYyWwbb) x red -> 1.56% blue</summary>
+#### **[want to stop here?]: red2 x red2 = blue (1.65%)**
+<details><summary>genetics</summary>
 <p>
- 
+
+* Parents:
+```
+red (RrYyWwbb)
+```
 * Offsprings:
 ```
 rose, blue, RRYYWWbb  rate: 0.015625
@@ -183,26 +187,37 @@ rose, white, rryywwbb  rate: 0.015625
 </p>
 </details>
 
-### 6. Cross the hybrid reds back with the whites* for oranges (12.5%)
+### 6. Target orange (12.5%)
+#### red-2 x white-2 = orange (12.5%) + red-2 (12.5%) + red-3(12.5%) + red-4 (12.5%) + purple-2(12.5%) + other(toss)
+<details><summary>genetics</summary>
+<p>
+ 
 * parent
 ```
-flower1: rose, red, RrYyWwbb
+flower1: rose, red-2, RrYyWwbb
 flower2: rose, white, rrYYWWbb
 ```
 * Offsprings:
 ```
 rose, orange, RrYYWwbb  rate: 0.125  - guaranteed route
-rose, red1, RrYYWWbb  rate: 0.125  - all reds can breed togther
-rose, red2, RrYyWWbb  rate: 0.125
-rose, red3, RrYyWwbb  rate: 0.125
+rose, red-4, RrYYWWbb  rate: 0.125  - all reds can breed togther
+rose, red-3, RrYyWWbb  rate: 0.125
+rose, red-2, RrYyWwbb  rate: 0.125
 rose, white, rrYYWWbb  rate: 0.125
 rose, yellow, rrYYWwbb  rate: 0.125
 rose, purple, rrYyWWbb  rate: 0.125 - this is the same purple used to get white*
 rose, white, rrYyWwbb  rate: 0.125
 ```
-#### If you stop here, these oranges can be bred together for a 6.25% chance at blue offspring.
-<details><summary> orange x orange (RrYYWwbb) -> 6.25% blue </summary>
+</p>
+</details>
+
+#### [Want to stop here?] orange x orange = blue (6.25)
+<details><summary>Genetics</summary>
 <p>
+
+```
+orange x orange (RrYYWwbb)
+```
  
 ```
 rose, blue, RRYYWWbb  rate: 0.0625
@@ -217,9 +232,8 @@ rose, yellow, rrYYwwbb (seed) rate: 0.0625
 ```
 </p></details>
  
-#### Breeding the reds also have high chance of getting blue
+#### [TIP] Breeding the reds also have high chance of getting blue
 
-<div style="margin-left:150px">
 <details><summary>red1 x red1 (RrYYWWbb) - 25% </summary>
 <p>
  
@@ -228,7 +242,7 @@ rose, blue, RRYYWWbb  rate: 0.25
 rose, red, RrYYWWbb  rate: 0.5
 rose, white, rrYYWWbb  rate: 0.25
 ```
-</p></details> </div>
+</p></details> 
 
 <details><summary>red1 (RrYYWWbb) x red2 (RrYyWWbb) - 12.5%</summary>
 <p>
@@ -338,7 +352,11 @@ rose, white, rryywwbb  rate: 0.015625
 ```
 </p></details> 
  
-### 7. Cross the oranges back to whites* for reds (25%)
+### 7. Target: red-3 (25%)
+#### white-2 x orange = red-3(25%) + orange(25%) + white-2(25%) + yellow (toss away!)
+<details><summary>Genetics</summary>
+<p>
+ 
 * parents:
 ```
 rose, white, rrYYWWbb
@@ -351,9 +369,13 @@ rose, orange, RrYYWwbb  rate: 0.25  -  this orange is the same with parent orang
 rose, white, rrYYWWbb  rate: 0.25  - this white is the same with parent white
 rose, yellow, rrYYWwbb  rate: 0.25  - discard the yellow
 ```
+</p></details>
+
 NOTE: you can keep breeding the offspring oranges and whites for more reds since they contain the same gene as parents. 
 
-### 8. Breed two of those reds together for blue (25%)
+
+### 8. Target: blue (25%)
+#### red-3 + red-3 = blue(25%) + red-3(50%) + white-2(25%)
 * parents:
 ```
 rose, red, RrYYWWbb
