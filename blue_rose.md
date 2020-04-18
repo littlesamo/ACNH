@@ -46,7 +46,11 @@ rose, black, RRyywwbb  rate: 0.25
 ```
 </p></details>
 
-### 2. Breed that purple with a seed yellow to get white (100%)
+### 2. Target: white-1 (100%)
+#### purple-1 x yellow (seed) = white-1 (100%)
+<details><summary> genetics </summary>
+<p>
+ 
 * parents:
 ```
 rose, yellow, rrYYwwbb (seed)
@@ -57,7 +61,13 @@ rose, purple, rryyWWbb
 rose, white, rrYyWwbb  rate: 1.0
 ```
 
-### 3. Cross that white back to purple to get purple offspring (50%)
+</p></details>
+
+### 3. Target: purple-2 (25%)
+#### white-1 x purple-1 = purple2 (25%) + purple-1 (25%) + white (toss away!)
+<details><summary> genetics </summary>
+<p>
+ 
 * parents:
 ```
 rose, white, rrYyWwbb
@@ -65,24 +75,40 @@ rose, purple, rryyWWbb
 ```
 * Offsprings:
 ```
-rose, purple, rrYyWWbb  rate: 0.25 - good purples
+rose, purple-2, rrYyWWbb  rate: 0.25 - good purples
 rose, white, rrYyWwbb  rate: 0.25
-rose, purple, rryyWWbb  rate: 0.25  - bad purples
+rose, purple-1, rryyWWbb  rate: 0.25  - bad purples
 rose, white, rryyWwbb (seed) rate: 0.25
 
 purple rate: 0.5
 white rate: 0.5
 ```
+As you can see, there will be 2 kinds of white: white(seed) and white-1, there is no good way to distinguish them. 
+</p></details>
 
-#### Choose the right purple
+### 3-1. Option1: Choose the right purple
+#### Test purple-1 vs purple-2 with yellow (seed)
+ * purple-2 x yellow (seed) = yellow(50%) + white-1 (50%)
+ * purple-1 x yellow (seed) = white-1 (100%) 
+ * **purple-2 is the ones that can make yellow offsprings**
+
+<details><summary> **Click for details** </summary>
+<p> 
+ 
 * This is where it gets tricky. Only half of the purple offspring **(purple with gene rrYyWWbb)** will have the required genes for the next step, so you have two options. You could place them all in a large plot together and move on to the next step, knowing that you may not be able to produce white offspring at all, or you can test breed them to seed yellows to pick out the good purples and guarantee that you can complete the next step.
 * **The good purples (rrYyWWbb)** can produce yellows 50% of the time when crossed with seed yellows, while **the bad purples (rryyWWbb) only produce whites**. If it doesn’t produce a yellow after 3-4 breedings, you can safely get rid of the purple. You will need at least two good purples in New Leaf, and one in New Horizons, since it’s best to duplicate the good purple in NH.
 * Important New Horizons notes: 
   * Due to flowers now being able to duplicate themselves, if you’re not doing a 1-on-1 breeding layout, it’s recommended to block open spots around your purple parent at this step.
   * For the same reasons, if you do any layout other than 1-on-1 breeding for the test breeding, it’s required to block open spots around the seed yellows.
-  * After you have one confirmed good purple, the easiest thing to do is to stop breeding the parents, isolate the purple, and water it to duplicate it.
+  * **After you have one confirmed good purple, the easiest thing to do is to stop breeding the parents, isolate the purple, and water it to duplicate it.**
+</p></details>
 
-### 4. Breed two of the purples (rrYyWWbb) from the last step to get white* (25%)
+### 3-2. Option2: move to step4 by breeding all purples together - lower chance getting required white-2 
+### 4. Target: white-2 (25% if follow 3-1)
+#### purple-2 x purple-2 = white-2 (25%) + purple-1 (25%) + purple-2 (50%) 
+<details><summary> genetics </summary>
+<p>
+ 
 * parents:
 ```
 rose, purple, rrYyWWbb
@@ -97,6 +123,7 @@ rose, purple, rryyWWbb  rate: 0.25
 white rate: 0.25
 purple rate: 0.75
 ```
+</p></details>
 
 ### 5. Breed the white* with the black for reds (100%)
 * parents:
